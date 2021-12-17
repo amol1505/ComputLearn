@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:id="@+id/welcomeBanner"
+       android:background="@drawable/topic_bg"
+       android:padding="10dp"
+       app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:id="@+id/welcomeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textColor="@color/white"
+            android:textSize="25sp"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/widen_and_test_your_knowledge_to_be_ahead_of_the_curve"
+           android:textAlignment="center"
+           android:textColor="@color/white"
+           android:gravity="center_horizontal" />
+   </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20sp"
+            android:layout_gravity="center">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/our_modules"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/bluewelcome"
+                    android:gravity="center_horizontal" />
+                <TextView
+                    android:layout_marginTop="5sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="@string/list_of_topics_designed_to_help_you_ace_your_computer_science_course"
+                    android:textColor="@color/bluewelcome"
+                    android:gravity="center_horizontal" />
+
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:baselineAligned="false">
+                    <LinearLayout
+                        android:id="@+id/programminglayout"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginTop="22dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="7.5dp"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="7.5dp"
+                        android:padding="15dp"
+                        android:background="@drawable/rectangle"
+                        >
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_margin="8dp"
+                                        android:src="@drawable/ic_baseline_code_24"
+                                        android:padding="8dp"
+                                        android:contentDescription="@string/topic_logo"
+                                        app:tint="@color/white" />
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/programming"
+                                        android:textColor="@color/white"
+                                        android:textSize="20sp"
+                                        android:textStyle="bold"/>
+
+
+
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ailayout"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginTop="22dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:orientation="vertical"
+                        android:padding="15dp"
+                        android:background="@drawable/rectangle"
+                        android:gravity="center">
+
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_margin="8dp"
+                                        android:src="@drawable/ic_baseline_adb_24"
+                                        android:padding="8dp"
+                                        app:tint="@color/white"
+                                        android:contentDescription="@string/logo_topic" />
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/ai"
+                                        android:textColor="@color/white"
+                                        android:textSize="20sp"
+                                        android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:baselineAligned="false">
+                    <LinearLayout
+                        android:id="@+id/technologieslayout"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginTop="22dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginRight="7.5dp"
+                        android:layout_marginEnd="7.5dp"
+                        android:orientation="vertical"
+                        android:padding="15dp"
+                        android:background="@drawable/rectangle"
+                        android:gravity="center"
+                        android:layout_marginLeft="15dp">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_margin="8dp"
+                                        android:src="@drawable/ic_baseline_computer_24"
+                                        android:padding="8dp"
+                                        android:contentDescription="@string/logo_content"
+                                        app:tint="@color/white" />
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/technologies"
+                                        android:textColor="@color/white"
+                                        android:textSize="20sp"
+                                        android:textStyle="bold"/>
+
+
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/cyberlayout"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginTop="22dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:orientation="vertical"
+                        android:padding="15dp"
+                        android:background="@drawable/rectangle"
+                        android:gravity="center">
+
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_margin="8dp"
+                                        android:src="@drawable/ic_baseline_security_24"
+                                        android:padding="8dp"
+                                        app:tint="@color/white"
+                                        android:contentDescription="@string/content_logo" />
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/cyber_security"
+                                        android:textColor="@color/white"
+                                        android:textSize="20sp"
+                                        android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20sp"
+            android:layout_gravity="center">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/test_yourself"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/bluewelcome"
+                    android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5sp"
+                        android:gravity="center_horizontal"
+                        android:text="@string/a_timed_quiz_to_put_your_knowledge_of_the_computer_science_modules_into_practise"
+                        android:textAlignment="center"
+                        android:textColor="@color/bluewelcome" />
+
+
+
+
+
+
+
+</LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="2"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false">
+    <LinearLayout
+        android:id="@+id/quizlayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:baselineAligned="false"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="32dp"
+        android:padding="15dp"
+        android:gravity="center"
+        android:background="@drawable/rectangle"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="32dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/content_logo"
+            android:padding="8dp"
+            android:src="@drawable/ic_baseline_school_24"
+            app:tint="@color/white" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quiz"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+    </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+</ScrollView>

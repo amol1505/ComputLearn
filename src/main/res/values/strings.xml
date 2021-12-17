@@ -1,0 +1,191 @@
+<resources>
+    <string name="app_name">ComputLearn</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="programmingtext">Concepts:\n
+        There are three concepts within programming:\n
+        • Sequence – the ability to run instructions one after another\n
+        • Selection – the ability to select which instructions to run \n
+        • Iteration – the ability to repeat instructions multiple times \n \n
+
+        These concepts apply to imperative programming languages \n, like Java. There are other concepts
+        such as functional and declarative. \n \n
+        Variables:\n
+        Variables let us save values and give them names, which allows us to
+            use them in more than one place in a program\n
+• To start using a variable, you have to declare it, that is, you have to tell
+Java (a) what sort of value it can hold (like a String, or an array of
+Strings) and (b) its name. Sometimes you give it an initial value as well.\n
+• Once you have declared a variable, you can use it in calculations.\n
+• You can also change its value to a new value using an assignment
+statement.\n \n
+        I/O \n
+        When a Java program runs, it has one input device and one output
+device provided to it (by the system) for basic communication.\n
+        • System.out to print out messages on the screen \n
+        • System.in to get input from the user \n
+        • Scanner - the specific Java library used to capture users input</string>
+
+    <string name="aitext">What is Artificial Intelligence? \n
+    AI is the ability of digital computers or computer
+controlled robots to solve problems that are
+normally associated with the higher intellectual
+processing capabilities of humans. \n \n
+    Rational Agents: \n
+        • Rational behavior: doing the right thing! \n
+        • An agent is anything that can be viewed
+as perceiving its environment through
+sensors and acting upon that
+environment through actuators \n
+• Abstractly, an agent is a function from percept
+histories to actions:
+[f: P*  A] \n
+        • For any given class of environments and tasks,
+we seek the agent (or class of agents) with the
+best performance \n
+• Caveat: computational limitations make perfect
+rationality unachievable \n \n
+        Software Agent: \n
+        • Software agents are software programs which have
+intelligent behaviour and can behave autonomously. \n
+        • A software agent may use keystrokes, file
+contents etc as sensory inputs and acts on
+the environment by writing to files,
+displaying information on screen. \n \n
+
+        Environment Types: \n
+        There are two types of environments that can be seen below. \n
+        Fully observable: If an agents sensors give it access to
+the complete state of the environment at each point in
+time. The agent has complete information to make the
+optimal decision. For example playing backgammon or
+chess. \n
+        • Partially observable – The agent only has
+some of the information of the environment. In
+these cases the agent requires internal memory
+to store past actions in order to make best
+possible decisions. \n \n
+
+        There are other factors within environnment types: \n
+        • Deterministic- If the next state of the environment is
+completely determined by the current state
+and the action executed by the agent. \n
+        • Stochastic- If we are not able to predict what will
+happen next. \n
+        • Episodic- In each episode the agent
+receives a percept and performs a single action. The
+next episode does not depend on the actions in the
+previous episodes. \n
+        • Sequential- The current
+decision can effect future decisions.
+
+
+
+    </string>
+    <string name="technologiestext"> What is SQL? \n
+    • SQL stands for Structured Query Language \n
+    • Used for storing, manipulating and retrieving data within relational databases \n \n
+
+        Commands: \n
+        • SELECT: Used to select data from a database, which is then returned in a results set. Example is SELECT * FROM users; \n
+        • TRUNCATE TABLE: Similar to DROP, but instead of deleting the table and its data, this deletes only the data. Example is TRUNCATE TABLE sessions; \n
+        • UNION: Combines the results from 2 or more SELECT statements and returns only distinct values. Example is SELECT city FROM events
+UNION
+SELECT city from subscribers; \n
+        • UPDATE: Updates existing data in a table. Example is UPDATE cars
+SET mileage = 23500, serviceDue = 0
+WHERE id = 45;
+    </string>
+
+    <string name="cybersectext"> Why are attacks more common: \n
+        • Increased connectivity \n
+        • Relatively easy to access \n
+        • Many more hosts online (IoT) \n
+        • Many more sophisticated hacking tools and methodologies exist \n \n
+
+
+
+        Cyber Security definition: \n
+        Cybersecurity is the protection of internet-connected systems, including hardware, software and data, from cyberattacks \n \n
+
+        CIA: \n
+        Confidentiality: Only authorised figures can view sensitive information \n
+        Integrity: Only authorised individuals can modify data \n
+        Availability: Able to serve information when needed \n \n
+
+        Problem with security: /n
+        • Scale of the problem is underestimated \n
+        • Nature of the threats often unknown, even to IT professionals \n
+        • Security policies are not sufficiently developed \n
+        • There is no international legislation \n \n
+
+        Major factors with breaches: /n
+        • Lots of buggy software and credulous users \n
+        • Money can be made from finding and exploiting vulnerabilities \n \n
+
+        Terminology: \n
+        Asset- The records of each patient that is receiving or has received treatment. \n
+Exposure- Potential financial loss from future patients who do not seek treatment because they do not trust the clinic to maintain their data. Financial loss from legal action by the sports star. Loss of reputation. \n
+Vulnerability- A weak password system which makes it easy for users to set guessable passwords.User ids that are the same as names. \n
+        Attack- An impersonation of an authorized user. \n
+Threat- An unauthorized user will gain access to the system by guessing the credentials (login name and password) of an authorized user. \n
+Control- A password checking system that disallows user passwords that are proper names or words that are normally included in a dictionary.
+
+    </string>
+    <string name="profile_settings">Profile Settings</string>
+    <string name="email">Email:</string>
+    <string name="update_email">Update Email</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="fragment_profile">********</string>
+    <string name="name">Name:</string>
+    <string name="password">Password:</string>
+    <string name="name2">Name</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="log_out">log out</string>
+    <string name="profile_icon">Profile icon</string>
+    <string name="icon">Icon</string>
+    <string name="email2">Email</string>
+    <string name="topic_title">Topic Title</string>
+    <string name="technologies">Technologies</string>
+    <string name="logo_content">Logo content</string>
+    <string name="ai">AI</string>
+    <string name="logo_topic">Logo topic</string>
+    <string name="programming">Programming</string>
+    <string name="topic_logo">Topic logo</string>
+    <string name="list_of_topics_designed_to_help_you_ace_your_computer_science_course">List of topics designed to help you ace your computer science course</string>
+    <string name="our_modules">Our Modules</string>
+    <string name="widen_and_test_your_knowledge_to_be_ahead_of_the_curve">Widen and test your knowledge to be ahead of the curve</string>
+    <string name="welcome">Welcome!</string>
+    <string name="content_logo">Content Logo</string>
+    <string name="cyber_security">Cyber Security</string>
+    <string name="test_yourself">Test Yourself</string>
+    <string name="a_timed_quiz_to_put_your_knowledge_of_the_computer_science_modules_into_practise">A timed quiz to put your knowledge of the computer science modules into practise</string>
+    <string name="content_logo2">Content logo</string>
+    <string name="quiz">Quiz</string>
+    <string name="email_address">Email Address</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">register</string>
+    <string name="enter_new_password">Enter New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="save">Save</string>
+    <string name="back_button">Back button</string>
+    <string name="results">Results</string>
+    <string name="questions_right">Questions right</string>
+    <string name="questions_wrong">Questions wrong</string>
+    <string name="score">score</string>
+    <string name="time_out">Time out!</string>
+    <string name="clock_logo">Clock logo</string>
+    <string name="try_again">Try again</string>
+    <string name="exit">Exit</string>
+    <string name="topic_image">Topic image</string>
+    <string name="author_image">Author image</string>
+    <string name="author">Author</string>
+    <string name="_10_04_21">10/04/21</string>
+    <string name="text">text</string>
+    <string name="next">NEXT</string>
+</resources>
